@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#132222,#1d3636);
+}
+
+header{
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.encabezado{
+    width: 100%;
+    background-color: darkgrey;
+    min-width: 800px;
+    max-width: 814px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    font-size: 1.2em;
+}
+
+h3{
+    font-size: 0.9em;
+}
+
+p {
+    margin-top: 3px;
+}
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    min-width: 800px;
+    max-width: 814px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left{
+    background: linear-gradient(#2b323f, #434f64);
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 28%;
+    min-width: 219px;
+    max-width: 220px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.right{
+    background-color: #fff;
+    color: #434f64;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 72%;
+    min-width: 25em;
+    max-width: 75em;
+    padding: 8px;
+    padding-left: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
+
+.titulos-left > h2{
+    background-color: #203838;
+    padding: 4px ;
+    margin-top: 2px;
+}
+
+.titulos-left > h3{
+    font-size: 12px;
+}
+
+.titulos-left > p{
+    font-size: 0.7em;
+}
+
+.img-perfil{
+    align-self:center;
+    margin-bottom: 0;
+}
+
+.img-perfil>img{
+    width: 200px;
+    height: 265px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.toca{
+    background-color: darkblue;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: solid 2px white;
+}
+
+.habilidades-left{
+    font-weight: 1;
+    margin: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.padding8px{
+    padding-left: 10px;
+}
+
+.descripcion{
+    font-family: 'Lato', sans-serif;
+    height: fit-content;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.subtitulos-conocimientos-informaticos{
+    margin-left: 20%;
+}
+
+.barra_conocimientos{
+    height: 10px;
+    width: 100%;
+    background-color:cyan;
+}
+
+.progreso_conocimientos{
+    height: 10px;
+    background-color:#132222;
+}
+
+#progreso_sla{
+    width: 100%;
+}
+
+#progreso_sui{
+    width: 100%;
+}
+
+#progreso_nom{
+    width: 80%;
+}
+
+#progreso_ges{
+    width: 60%;
+}
+
+.titulos-right{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 4px;
+}
+
+.contenedor-exp{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.exp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.exp-col1{
+    max-width: 90px;
+    width: 25%;
+    padding: 5px;
+}
+
+.exp-col2{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 5px;
+}
+
+.barra_habilidades{
+    margin-left: 10px;
+    height: 10px;
+    width: 90%;
+    background-color:#132222;
+}
+
+.progreso_habilidades{
+    height: 10px;
+    background-color:#fff;
+}
+
+#progreso_org{
+    width: 100%;
+}
+
+#progreso_com{
+    width: 100%;
+}
+
+#progreso_pac{
+    width: 80%;
+}
+
+#progreso_tra{
+    width: 60%;
+}
+
+.titulos-left h3{
+    margin-top: 15px;
+}
+

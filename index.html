@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="javascript/java.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <div class="encabezado">
+        <header>
+            <nav>
+                <a href="#contacto" id="datos_contacto">Datos de contacto</a>
+                <a href="#hab" id="habilidades">Habilidades</a>
+                <a href="#exp" id="experiencia">Experiencia</a>
+                <a href="#edu" id="educacion">Educación</a>
+                <a href="#conocimientos" id="conocimientos_inf">Conocimientos informáticos</a>
+            </nav>
+        </header>
+    </div>
+
+    <div class="contenedor">
+        <div class="left">
+            <h1 id="nombre" class="padding8px">Leandro Hernan Giacobini</h1>
+            <p id="ocupacion" class="padding8px">Empleado</p>
+            <p id="puesto" class="padding8px">Supervisor de Seguridad</p>
+            <div class="img-perfil">
+                <input type="file" name="sel_img" id="sel_img" style="display:none" onchange ="cambiarImagen()">
+                <img id="contenedor_imagen" src="images/foto_perfil.jpg" alt="Foto perfil" onclick="elegirImagen()">
+                <div class="toca">Toca la imagen para cambiarla</div>
+                </img>
+            </div>
+            
+            <div class="titulos-left">
+                <h2 id="contacto">Datos de contacto</h2>
+                <h3 class="subtitulos-left padding8px">Direccion</h3>
+                <p id="direccion" class="padding8px">Ctra. de Fuentenueva, 18</p>
+                <p id="localidad" class="padding8px">28190 Montejo de la Sierra</p>
+                <h3 class="subtitulos-left padding8px">Telefono</h3>
+                <p id="telefono" class="padding8px">629 457 029</p>
+                <h3 class="subtitulos-left padding8px">E-mail</h3>
+                <p id="email" class="padding8px">fernandogonzalezrojas@gmail.com</p>
+                <h3 class="subtitulos-left padding8px" id="lblLinkedin">Linkedin</h3>
+                <p id="linkedin" class="padding8px">linkedin.com/in/fernandoglezrojas</p>
+            </div>
+            <div class="titulos-left habilidades-left" >
+                <h2 id="hab">Habilidades</h2>
+                <h3 class="habilidades-left padding8px">Organización</h3><br>
+                <div class="barra_habilidades"><div class="progreso_habilidades" id="progreso_org"></div></div>
+                <h3 class="habilidades-left padding8px">Comunicación</h3><br>
+                <div class="barra_habilidades"><div class="progreso_habilidades" id="progreso_com"></div></div>
+                <h3 class="habilidades-left padding8px">Paciencia</h3><br>
+                <div class="barra_habilidades"><div class="progreso_habilidades" id="progreso_pac"></div></div>
+                <h3 class="habilidades-left padding8px">Trabajo en equipo</h3><br>
+                <div class="barra_habilidades"><div class="progreso_habilidades" id="progreso_tra"></div></div>
+            </div>
+        </div>
+
+        <div class="right">
+            <p class="descripcion">Profesional de la administración contable con más de 5 años de Experiencia
+                enfocados en buscar la eficiencia de los procesos burocráticos y de distribución de información 
+                de la empresa, reduciendo los tiempos para cada acción y disminuyendo los gastos totales de la empresa
+                en más de un 10% durante el último año. Busco formar parte del equipo de EPOS Spain para poder
+                seguir desarrollándome profesionalmente a nivel internacional, contribuyendo con mis conocimientos
+                de cara a la comunicación entre distintos departamentos.
+            </p>
+            
+            <h2 class="titulos-right">Experiencia</h2>
+            <div class="contenedor-exp">
+                <div class="exp">
+                    <div class="exp-col1">
+                        <p>2017-01 - 2020-09</p>
+                    </div>
+                    <div class="exp-col2">
+                        <div><h2>Administrativo contable</h2>
+                            <p>AITORIN PETANT SL.</p>
+                            <ul>
+                                <li>Gestión de facturación y contabilidad</li>
+                                <li>Pago de impuestos trimestrales y anuales</li>
+                                <li>Contacto con proveedores de forma semanal</li>
+                                <li>Planificación de los presupuestos anuales para cada departamento</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Logros clave</h3>
+                            <ul>
+                                <li>Reducción de gastos superfluos en un 10% anual</li>
+                                <li>Ahorro de impuestos en un 7% durante el último año</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp">
+                    <div class="exp-col1">
+                        <p>2015-07 - 2016-12</p>
+                    </div>
+                    <div class="exp-col2">
+                        <div><h2>Administrativo</h2>
+                            <p>TIPSA</p>
+                            <ul>
+                                <li>Gestión de pagos de nóminas y finiquitos a los trabajadores</li>
+                                <li>Elaboración de contratos para nuevos empleados</li>
+                                <li>Gestión de la comunicación interna de la empresa</li>
+                                <li>Planificación de eventos trimestrales</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>Logros clave</h3>
+                            <ul>
+                                <li>Implementación de softwares para la comunicación interna, mejorando la fluidez en la distribución de información y documentos</li>
+                                <li>Elaboración de instrucciones, facilitando la elaboración de solicitudes y comunicación general para los trabajadores</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <h2 id="edu" class="titulos-right">Educación</h2>
+                <div class="contenedor-exp">
+                    <div class="exp">
+                        <div class="exp-col1">
+                            <p>2013-09 - 2015-06</p>
+                        </div>
+                        <div class="exp-col2">
+                            <div><h2>Grado Superior en Asistencia a la Dirección</h2>
+                                <p>Centro Nelson, Madrid</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="exp">
+                        <div class="exp-col1">
+                            <p>2011-09 - 2015-06</p>
+                        </div>
+                        <div class="exp-col2">
+                            <div><h2>Grado Medio en Gestión Administrativa</h2>
+                                <p>IES San Blas, Madrid</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="conocimientos" class="titulos-right">Conocimientos informáticos</h2>
+                <div class="subtitulos-conocimientos-informaticos">
+                    <h3>Slack</h3><br>
+                    <div class="barra_conocimientos"><div class="progreso_conocimientos" id="progreso_sla"></div></div>
+                    <h3>Suite de Google</h3><br>
+                    <div class="barra_conocimientos"><div class="progreso_conocimientos" id="progreso_sui"></div></div>
+                    <h3>Nómina Plus</h3><br>
+                    <div class="barra_conocimientos"><div class="progreso_conocimientos" id="progreso_nom"></div></div>
+                    <h3>Gestión de redes sociales</h3><br>
+                    <div class="barra_conocimientos"><div class="progreso_conocimientos" id="progreso_ges"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</script>
+</html>
